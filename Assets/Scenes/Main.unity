@@ -359,6 +359,7 @@ GameObject:
   - component: {fileID: 234617525}
   - component: {fileID: 234617524}
   - component: {fileID: 234617523}
+  - component: {fileID: 234617529}
   m_Layer: 0
   m_Name: Yellowcube
   m_TagString: Untagged
@@ -612,6 +613,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &234617529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 234617522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7861e409e43144096af766ac2b084128, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleCube
+  cubeColor: Yellow
 --- !u!1 &250617952
 GameObject:
   m_ObjectHideFlags: 0
@@ -622,6 +636,7 @@ GameObject:
   m_Component:
   - component: {fileID: 250617953}
   - component: {fileID: 250617954}
+  - component: {fileID: 250617955}
   m_Layer: 0
   m_Name: Socket3
   m_TagString: Untagged
@@ -665,6 +680,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.25, y: 0.25, z: 0.25}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &250617955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250617952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95356d4ee0f064705a6b7423921353c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleSocket
+  requiredColor: Green
+  puzzleManager: {fileID: 1447413462}
 --- !u!114 &275489446
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1305,6 +1334,7 @@ GameObject:
   - component: {fileID: 399792805}
   - component: {fileID: 399792804}
   - component: {fileID: 399792803}
+  - component: {fileID: 399792809}
   m_Layer: 0
   m_Name: Bluecube
   m_TagString: Untagged
@@ -1558,6 +1588,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &399792809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 399792802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7861e409e43144096af766ac2b084128, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleCube
+  cubeColor: Blue
 --- !u!1001 &407480388
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1965,6 +2008,7 @@ GameObject:
   - component: {fileID: 439607541}
   - component: {fileID: 439607540}
   - component: {fileID: 439607539}
+  - component: {fileID: 439607545}
   m_Layer: 0
   m_Name: Greencube
   m_TagString: Untagged
@@ -2218,6 +2262,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &439607545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439607538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7861e409e43144096af766ac2b084128, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleCube
+  cubeColor: Green
 --- !u!1 &508884926
 GameObject:
   m_ObjectHideFlags: 0
@@ -2619,8 +2676,8 @@ Transform:
   m_GameObject: {fileID: 995657560}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -73.585, y: 1.75014, z: -19.488}
-  m_LocalScale: {x: 2, y: 3, z: 0.2}
+  m_LocalPosition: {x: -73.391, y: 1.75014, z: -19.488}
+  m_LocalScale: {x: 2.6284, y: 3, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2635,6 +2692,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1026250698}
   - component: {fileID: 1026250699}
+  - component: {fileID: 1026250700}
   m_Layer: 0
   m_Name: Socket1
   m_TagString: Untagged
@@ -2678,6 +2736,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.25, y: 0.25, z: 0.25}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1026250700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026250697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95356d4ee0f064705a6b7423921353c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleSocket
+  requiredColor: Red
+  puzzleManager: {fileID: 1447413462}
 --- !u!1 &1054249963
 GameObject:
   m_ObjectHideFlags: 0
@@ -3319,6 +3391,53 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1447413461
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1447413463}
+  - component: {fileID: 1447413462}
+  m_Layer: 0
+  m_Name: Puzzle1Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1447413462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1447413461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 552b0d42bd49b45a1ac658f5d6014755, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Puzzle1Manager
+  door: {fileID: 995657564}
+  moveUpDistance: 3
+  moveSpeed: 2
+--- !u!4 &1447413463
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1447413461}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -60.94195, y: 2.30021, z: -21.47269}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1514306197
 GameObject:
   m_ObjectHideFlags: 0
@@ -3552,6 +3671,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1671351385}
   - component: {fileID: 1671351386}
+  - component: {fileID: 1671351387}
   m_Layer: 0
   m_Name: Socket4
   m_TagString: Untagged
@@ -3595,6 +3715,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.25, y: 0.25, z: 0.25}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1671351387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671351384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95356d4ee0f064705a6b7423921353c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleSocket
+  requiredColor: Blue
+  puzzleManager: {fileID: 1447413462}
 --- !u!114 &1682806360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3815,6 +3949,7 @@ GameObject:
   - component: {fileID: 1764023975}
   - component: {fileID: 1764023974}
   - component: {fileID: 1764023973}
+  - component: {fileID: 1764023979}
   m_Layer: 0
   m_Name: Redcube
   m_TagString: Untagged
@@ -4068,6 +4203,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1764023979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1764023972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7861e409e43144096af766ac2b084128, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleCube
+  cubeColor: Red
 --- !u!1 &2005381497
 GameObject:
   m_ObjectHideFlags: 0
@@ -4078,6 +4226,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2005381498}
   - component: {fileID: 2005381499}
+  - component: {fileID: 2005381500}
   m_Layer: 0
   m_Name: Socket2
   m_TagString: Untagged
@@ -4121,6 +4270,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.25, y: 0.25, z: 0.25}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2005381500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005381497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95356d4ee0f064705a6b7423921353c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleSocket
+  requiredColor: Yellow
+  puzzleManager: {fileID: 1447413462}
 --- !u!1 &2075669035
 GameObject:
   m_ObjectHideFlags: 0
@@ -4527,3 +4690,4 @@ SceneRoots:
   - {fileID: 2005381498}
   - {fileID: 250617953}
   - {fileID: 1671351385}
+  - {fileID: 1447413463}
