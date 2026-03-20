@@ -1,7 +1,10 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR.Interaction.Toolkit.Interactables;
+
+
 
 public class Puzzle1Manager : MonoBehaviour
 {
@@ -11,6 +14,11 @@ public class Puzzle1Manager : MonoBehaviour
 
     private Vector3 doorClosedPos;
     private Vector3 doorOpenPos;
+
+    public AudioSource audioSource;
+    public AudioClip placeSound;
+    public AudioClip successSound;
+    public AudioClip doorSound;
 
     private void Start()
     {
@@ -46,6 +54,11 @@ public class Puzzle1Manager : MonoBehaviour
 
             socket.SetFilled(true);
 
+            if (audioSource != null && placeSound != null)
+            {
+                audioSource.PlayOneShot(placeSound);
+            }
+
             CheckPuzzleComplete();
         }
         else
@@ -57,6 +70,11 @@ public class Puzzle1Manager : MonoBehaviour
     void CheckPuzzleComplete()
     {
         PuzzleSocket[] sockets = FindObjectsByType<PuzzleSocket>(FindObjectsSortMode.None);
+
+        if (audioSource != null && successSound != null)
+        {
+            audioSource.PlayOneShot(successSound);
+        }
 
         foreach (PuzzleSocket socket in sockets)
         {
@@ -71,6 +89,12 @@ public class Puzzle1Manager : MonoBehaviour
 
     IEnumerator OpenDoor()
     {
+
+        if (audioSource != null && doorSound != null)
+        {
+            audioSource.PlayOneShot(doorSound);
+        }
+
         while (Vector3.Distance(door.position, doorOpenPos) > 0.01f)
         {
             door.position = Vector3.MoveTowards(door.position, doorOpenPos, moveSpeed * Time.deltaTime);
