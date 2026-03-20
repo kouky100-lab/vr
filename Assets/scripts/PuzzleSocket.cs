@@ -5,6 +5,8 @@ public class PuzzleSocket : MonoBehaviour
     public string requiredColor;
     public Puzzle1Manager puzzleManager;
     private bool isFilled = false;
+    public Renderer socketRenderer;
+    public Material correctMaterial;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -20,6 +22,11 @@ public class PuzzleSocket : MonoBehaviour
     public void SetFilled(bool value)
     {
         isFilled = value;
+
+        if (isFilled && socketRenderer != null && correctMaterial != null)
+        {
+            socketRenderer.material = correctMaterial;
+        }
     }
 
     public bool GetFilled()

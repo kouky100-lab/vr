@@ -694,6 +694,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PuzzleSocket
   requiredColor: Green
   puzzleManager: {fileID: 1447413462}
+  socketRenderer: {fileID: 1403560812}
+  correctMaterial: {fileID: 2100000, guid: 037492be01bf84fa08bbd1faa268faf1, type: 2}
 --- !u!114 &275489446
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2750,6 +2752,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PuzzleSocket
   requiredColor: Red
   puzzleManager: {fileID: 1447413462}
+  socketRenderer: {fileID: 103726170}
+  correctMaterial: {fileID: 2100000, guid: b69895ce9a4c84f578a0cd99b06ce86e, type: 2}
 --- !u!1 &1054249963
 GameObject:
   m_ObjectHideFlags: 0
@@ -3423,7 +3427,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Puzzle1Manager
   door: {fileID: 995657564}
   moveUpDistance: 3
-  moveSpeed: 15
+  moveSpeed: 1
   audioSource: {fileID: 1447413464}
   placeSound: {fileID: 8300000, guid: df20bd731ff514870a38f0a34c3e4e7c, type: 3}
   successSound: {fileID: 8300000, guid: 6f6fe7c0cde1e47968f7178ac9c0c5f7, type: 3}
@@ -3831,6 +3835,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PuzzleSocket
   requiredColor: Blue
   puzzleManager: {fileID: 1447413462}
+  socketRenderer: {fileID: 2075669037}
+  correctMaterial: {fileID: 2100000, guid: 8705bfeeb2f62472c95cfe99bb1b1d5f, type: 2}
 --- !u!114 &1682806360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4386,6 +4392,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PuzzleSocket
   requiredColor: Yellow
   puzzleManager: {fileID: 1447413462}
+  socketRenderer: {fileID: 1168930282}
+  correctMaterial: {fileID: 2100000, guid: a67473ac946f24978a3233ea60320e70, type: 2}
 --- !u!1 &2075669035
 GameObject:
   m_ObjectHideFlags: 0
