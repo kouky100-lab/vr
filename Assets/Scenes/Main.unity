@@ -616,6 +616,7 @@ GameObject:
   - component: {fileID: 106710460}
   - component: {fileID: 106710459}
   - component: {fileID: 106710458}
+  - component: {fileID: 106710463}
   m_Layer: 0
   m_Name: Button6
   m_TagString: Untagged
@@ -788,6 +789,21 @@ Transform:
   - {fileID: 1801027389}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &106710463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 106710457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 010fcce27bc8e43f2802d4a184e1e63d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KeypadButton
+  buttonValue: 6
+  isResetButton: 0
+  manager: {fileID: 1153841316}
 --- !u!1 &144353986
 GameObject:
   m_ObjectHideFlags: 0
@@ -801,6 +817,7 @@ GameObject:
   - component: {fileID: 144353989}
   - component: {fileID: 144353988}
   - component: {fileID: 144353987}
+  - component: {fileID: 144353992}
   m_Layer: 0
   m_Name: Button4
   m_TagString: Untagged
@@ -973,6 +990,21 @@ Transform:
   - {fileID: 1734194888}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &144353992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144353986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 010fcce27bc8e43f2802d4a184e1e63d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KeypadButton
+  buttonValue: 4
+  isResetButton: 0
+  manager: {fileID: 1153841316}
 --- !u!1 &146784983
 GameObject:
   m_ObjectHideFlags: 0
@@ -1032,6 +1064,7 @@ GameObject:
   - component: {fileID: 165154285}
   - component: {fileID: 165154284}
   - component: {fileID: 165154283}
+  - component: {fileID: 165154288}
   m_Layer: 0
   m_Name: Button1
   m_TagString: Untagged
@@ -1204,6 +1237,21 @@ Transform:
   - {fileID: 633085354}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &165154288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 165154282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 010fcce27bc8e43f2802d4a184e1e63d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KeypadButton
+  buttonValue: 1
+  isResetButton: 0
+  manager: {fileID: 1153841316}
 --- !u!1 &192265574
 GameObject:
   m_ObjectHideFlags: 0
@@ -2551,6 +2599,7 @@ GameObject:
   - component: {fileID: 333997495}
   - component: {fileID: 333997494}
   - component: {fileID: 333997493}
+  - component: {fileID: 333997498}
   m_Layer: 0
   m_Name: Button2
   m_TagString: Untagged
@@ -2723,6 +2772,21 @@ Transform:
   - {fileID: 1559678897}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &333997498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 333997492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 010fcce27bc8e43f2802d4a184e1e63d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KeypadButton
+  buttonValue: 2
+  isResetButton: 0
+  manager: {fileID: 1153841316}
 --- !u!1 &399792802
 GameObject:
   m_ObjectHideFlags: 0
@@ -3691,6 +3755,7 @@ GameObject:
   - component: {fileID: 482112653}
   - component: {fileID: 482112652}
   - component: {fileID: 482112651}
+  - component: {fileID: 482112656}
   m_Layer: 0
   m_Name: Button7
   m_TagString: Untagged
@@ -3863,6 +3928,21 @@ Transform:
   - {fileID: 1763591621}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &482112656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482112650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 010fcce27bc8e43f2802d4a184e1e63d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KeypadButton
+  buttonValue: 7
+  isResetButton: 0
+  manager: {fileID: 1153841316}
 --- !u!1 &490974721
 GameObject:
   m_ObjectHideFlags: 0
@@ -6296,6 +6376,7 @@ GameObject:
   - component: {fileID: 1396258943}
   - component: {fileID: 1396258942}
   - component: {fileID: 1396258941}
+  - component: {fileID: 1396258946}
   m_Layer: 0
   m_Name: Reset
   m_TagString: Untagged
@@ -6468,6 +6549,21 @@ Transform:
   - {fileID: 1683828069}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1396258946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1396258940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 010fcce27bc8e43f2802d4a184e1e63d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KeypadButton
+  buttonValue: 
+  isResetButton: 1
+  manager: {fileID: 1153841316}
 --- !u!1 &1400534463
 GameObject:
   m_ObjectHideFlags: 0
@@ -7910,6 +8006,7 @@ GameObject:
   - component: {fileID: 1591018078}
   - component: {fileID: 1591018077}
   - component: {fileID: 1591018076}
+  - component: {fileID: 1591018081}
   m_Layer: 0
   m_Name: Button9
   m_TagString: Untagged
@@ -8082,6 +8179,21 @@ Transform:
   - {fileID: 64141222}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1591018081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591018075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 010fcce27bc8e43f2802d4a184e1e63d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KeypadButton
+  buttonValue: 9
+  isResetButton: 0
+  manager: {fileID: 1153841316}
 --- !u!114 &1635525135
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9752,6 +9864,7 @@ GameObject:
   - component: {fileID: 1884359650}
   - component: {fileID: 1884359649}
   - component: {fileID: 1884359648}
+  - component: {fileID: 1884359653}
   m_Layer: 0
   m_Name: Button8
   m_TagString: Untagged
@@ -9924,6 +10037,21 @@ Transform:
   - {fileID: 872795219}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1884359653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884359647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 010fcce27bc8e43f2802d4a184e1e63d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KeypadButton
+  buttonValue: 8
+  isResetButton: 0
+  manager: {fileID: 1153841316}
 --- !u!1 &1894598899
 GameObject:
   m_ObjectHideFlags: 0
@@ -9937,6 +10065,7 @@ GameObject:
   - component: {fileID: 1894598902}
   - component: {fileID: 1894598901}
   - component: {fileID: 1894598900}
+  - component: {fileID: 1894598905}
   m_Layer: 0
   m_Name: Button5
   m_TagString: Untagged
@@ -10109,6 +10238,21 @@ Transform:
   - {fileID: 2099282542}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1894598905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1894598899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 010fcce27bc8e43f2802d4a184e1e63d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KeypadButton
+  buttonValue: 5
+  isResetButton: 0
+  manager: {fileID: 1153841316}
 --- !u!1 &2005381497
 GameObject:
   m_ObjectHideFlags: 0
@@ -10192,6 +10336,7 @@ GameObject:
   - component: {fileID: 2013104002}
   - component: {fileID: 2013104001}
   - component: {fileID: 2013104000}
+  - component: {fileID: 2013104005}
   m_Layer: 0
   m_Name: Button3
   m_TagString: Untagged
@@ -10364,6 +10509,21 @@ Transform:
   - {fileID: 2096557966}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2013104005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2013103999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 010fcce27bc8e43f2802d4a184e1e63d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KeypadButton
+  buttonValue: 3
+  isResetButton: 0
+  manager: {fileID: 1153841316}
 --- !u!1 &2075669035
 GameObject:
   m_ObjectHideFlags: 0
