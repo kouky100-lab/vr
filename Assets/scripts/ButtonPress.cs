@@ -5,7 +5,7 @@ using UnityEngine.XR.Interaction.Toolkit.Interactors;
 
 public class ButtonPress : MonoBehaviour
 {
-    public Puzzle2SocketManager manager;
+    public Puzzle2Manager manager;
     private XRSimpleInteractable interactable;
 
     private void Awake()
