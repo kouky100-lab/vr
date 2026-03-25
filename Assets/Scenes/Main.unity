@@ -6803,9 +6803,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12863400a979c4f9c9fedaf8aed6535f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FinalPuzzleManager
-  correctCode: 1911
+  correctCode: 3124
   finalDoor: {fileID: 490974725}
-  doorMoveUp: 3
+  doorMoveUp: 0.5
   moveSpeed: 1
   displayText: {fileID: 1550292551}
   defaultDisplay: ----
@@ -8271,7 +8271,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Puzzle1Manager
   door: {fileID: 995657564}
   moveUpDistance: 3
-  moveSpeed: 1
+  moveSpeed: 0.5
   audioSource: {fileID: 1447413464}
   placeSound: {fileID: 8300000, guid: df20bd731ff514870a38f0a34c3e4e7c, type: 3}
   successSound: {fileID: 8300000, guid: 6f6fe7c0cde1e47968f7178ac9c0c5f7, type: 3}
